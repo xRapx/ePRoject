@@ -1,0 +1,91 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOBEL</title>
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body ng-app="myApp">
+    <div id="div-header">
+        <header>
+            <ul>
+                <li><img src="image/LOGO1.jpg" alt=""></li>
+                <li>
+                    <h1>THE NOBEL PRIZE</h1>
+                </li>
+            </ul>
+        </header>
+    </div>
+
+    <nav id="nav-container">
+        <ul id="index-menu">
+            <li><a href="#!">HOME</a></li>
+            <li><a href="#!prize">PRIZE</a></li>
+            <li><a href="#!alfrednobel">ALFRED NOBEL</a></li>
+            <li><a href="#!event">EVENT</a></li>
+            <li><a href="#!news">NEWS</a></li>
+        </ul>
+    </nav>
+
+    <script src="https://code.jquery.com/jquery-latest.js"></script>
+
+    <script src="/js/time.js"></script>
+
+    <div ng-view></div>
+
+    <footer>
+        <div class="div-footer1">
+            <a href="#!about">About US</a> <a href="#!faq">FAQ</a> <a href="">Contact:</a>
+        </div>
+        <div class="div-footer2">
+            <ul>
+                <li><i class="material-icons">pin_drop</i>590 Cach Mang Thang 8 ,ward 11, district 3, Ho Chi Minh
+                    city,Vietnam <i class="fa-solid fa-location-dot"></i></li>
+                <li><i class="material-icons">local_phone</i>+84 22030 3507</li>
+                <li><i class="material-icons">local_post_office</i>nobelprize.org@gmail.com</li>
+            </ul>
+        </div>
+    </footer>
+    <article></article>
+    <script src="app.js"></script>
+    
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/62b5723a7b967b1179964a82/1g6accdgp';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <script>
+        const settings = {
+            "async": true,
+            "crossDomain": true,
+            "url": "https://google-news.p.rapidapi.com/v1/top_headlines?lang=en&country=US",
+            "method": "GET",
+            "headers": {
+                "X-RapidAPI-Key": "8cd8df7cd8msheb76c1ea33c0dc3p155187jsndbd2a6daea43",
+                "X-RapidAPI-Host": "google-news.p.rapidapi.com"
+            }
+        };
+
+        $.ajax(settings).done(function (response) {
+            console.log(response);
+        });
+    </script>
+</body>
+
+</html>
