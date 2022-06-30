@@ -1,4 +1,4 @@
-<table id="div-table">
+<table id="div-table" ng-controller="showCtrl">
     <tr>
         <td>
             <div id="div-alfred">
@@ -114,7 +114,180 @@
             <h2>Alfred Nobel's Work</h2>
         </td>
     </tr>
+    <tr style="background-color:#E4E2DF ;">
+        <td>
+            <strong>Đăng ký nhận bản tin "Hàng tháng"</strong> <br>
+            <p>Tham gia cùng hàng nghìn người đăng ký toàn cầu để tận hưởng những thông tin nổi bật, câu đố và cập nhật
+                của Giải Nobel hàng tháng miễn phí.</p>
+        </td>
+        <td>
+            <div>
+                <form>
+                    <div class="mb-3 position-relative">
+                        <label class="form-label" for="inputEmail">Email</label>
+                        <input type="email" class="form-control is-valid" id="inputEmail" placeholder="abc@gmail.com.vn"
+                            required>
+                        <div class="mb-3">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="checkRemember">
+                                <label class="form-check-label" for="checkRemember">Tôi đồng ý để địa chỉ email của tôi
+                                    được sử dụng theo 
 
+                                        <!-- Button trigger modal -->
+                                        <a href=""   data-bs-toggle="modal"
+                                            data-bs-target="#staticBackdrop">
+                                            chính sách bảo mật
+                                        </a>
+
+                                        <!-- Modal -->
+                                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                            data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel"
+                                            aria-hidden="true">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <h5 class="modal-title" id="staticBackdropLabel">Chính sách bảo
+                                                            mật
+                                                        </h5>
+
+                                                    </div>
+                                                    <div class="modal-body">
+                                                        A. Giới thiệu
+
+                                                        Quyền riêng tư của khách truy cập website của chúng tôi rất quan
+                                                        trọng đối với chúng tôi và chúng tôi cam kết bảo vệ nó. Chính
+                                                        sách này giải thích những gì chúng tôi sẽ làm với thông tin cá
+                                                        nhân của bạn.
+                                                        Việc đồng ý cho chúng tôi sử dụng cookie theo các điều khoản của
+                                                        chính sách này khi bạn truy cập website của chúng tôi lần đầu sẽ
+                                                        cho phép chúng tôi sử dụng cookie mỗi khi bạn truy cập website
+                                                        của chúng tôi.
+                                                        B. Dẫn nguồn
+                                                        Tài liệu này được tạo bằng một mẫu từ SEQ Legal (seqlegal.com)
+                                                        và được sửa đổi bởi Website Planet (www.websiteplanet.com)
+
+                                                        C. Thu thập thông tin cá nhân
+
+                                                        Các loại thông tin cá nhân sau đây có thể được thu thập, lưu trữ
+                                                        và sử dụng:
+
+                                                        thông tin về máy tính của bạn bao gồm địa chỉ IP, vị trí địa lý,
+                                                        loại và phiên bản trình duyệt, hệ điều hành;
+                                                        thông tin về các lượt truy cập và sử dụng website này của bạn
+                                                        bao gồm nguồn giới thiệu, thời lượng truy cập, lượt xem trang và
+                                                        đường dẫn điều hướng website;
+                                                        thông tin chẳng hạn như địa chỉ email mà bạn nhập khi đăng ký
+                                                        với website của chúng tôi;
+                                                        thông tin bạn nhập khi tạo một hồ sơ trên website của chúng
+                                                        tôi—ví dụ như tên, hình ảnh hồ sơ, giới tính, ngày sinh, tình
+                                                        trạng mối quan hệ, sở thích và thú vui, thông tin học vấn và
+                                                        thông tin công việc;
+                                                        thông tin chẳng hạn như tên và địa chỉ email mà bạn nhập để
+                                                        thiết lập đăng ký nhận email và/hoặc bản tin của chúng tôi;
+                                                        thông tin mà bạn nhập trong khi sử dụng các dịch vụ trên website
+                                                        của chúng tôi;
+                                                        thông tin được tạo trong khi sử dụng website của chúng tôi, bao
+                                                        gồm thời gian, tần suất và những trường hợp bạn sử dụng nó;
+                                                        thông tin liên quan đến bất cứ thứ gì bạn mua, các dịch vụ bạn
+                                                        sử dụng hoặc các giao dịch bạn thực hiện thông qua website của
+                                                        chúng tôi, bao gồm tên, địa chỉ, số điện thoại, địa chỉ email và
+                                                        thông tin thẻ tín dụng của bạn;
+                                                        thông tin mà bạn đăng lên website của chúng tôi với mục đích
+                                                        công khai nó trên internet, bao gồm tên người dùng, hình ảnh hồ
+                                                        sơ và nội dung những bài đăng của bạn;
+                                                        thông tin có trong bất kỳ liên lạc nào mà bạn gửi cho chúng tôi
+                                                        bằng email hoặc thông qua website của chúng tôi, bao gồm nội
+                                                        dung liên lạc và siêu dữ liệu của nó;
+                                                        bất kỳ thông tin cá nhân nào khác mà bạn gửi cho chúng tôi.
+                                                        Trước khi bạn tiết lộ cho chúng tôi thông tin cá nhân của người
+                                                        khác, bạn phải có được sự đồng ý của người đó đối với cả việc
+                                                        tiết lộ lẫn xử lý thông tin cá nhân đó theo chính sách này.
+
+                                                        D. Sử dụng thông tin cá nhân của bạn
+
+                                                        Thông tin cá nhân được gửi cho chúng tôi thông qua website của
+                                                        chúng tôi sẽ được sử dụng cho các mục đích được xác định trong
+                                                        chính sách này hoặc trên các trang có liên quan của website.
+                                                        Chúng tôi có thể sử dụng thông tin cá nhân của bạn cho những
+                                                        việc sau đây:
+
+                                                        quản trị website và công việc của chúng tôi;
+                                                        cá nhân hóa website của chúng tôi cho bạn;
+                                                        cho phép bạn sử dụng các dịch vụ có sẵn trên website của chúng
+                                                        tôi;
+                                                        gửi cho bạn sản phẩm được mua thông qua website của chúng tôi;
+                                                        cung cấp các dịch vụ được mua thông qua website của chúng tôi;
+                                                        gửi các báo cáo, hóa đơn, nhắc nhở thanh toán cho bạn và thu các
+                                                        khoản thanh toán từ bạn;
+                                                        gửi cho bạn các thông tin thương mại không phải tiếp thị;
+                                                        gửi cho bạn các thông báo qua email mà bạn đã yêu cầu cụ thể;
+                                                        gửi cho bạn bản tin của chúng tôi qua email, nếu bạn đã yêu cầu
+                                                        nó (bạn có thể thông báo cho chúng tôi bất cứ lúc nào nếu bạn
+                                                        không có nhu cầu nhận bản tin nữa);
+                                                        gửi cho bạn các thông tin tiếp thị liên quan đến doanh nghiệp
+                                                        của chúng tôi hoặc doanh nghiệp của các bên thứ ba được lựa chọn
+                                                        cẩn thận mà chúng tôi nghĩ rằng có thể bạn quan tâm qua đường
+                                                        bưu điện, nơi bạn đã đồng ý cụ thể về điều này, hoặc bằng email
+                                                        hay công nghệ tương tự (bạn có thể thông báo cho chúng tôi bất
+                                                        cứ lúc nào nếu bạn không có nhu cầu nhận các thông tin tiếp thị
+                                                        nữa);
+                                                        cung cấp cho các bên thứ ba thông tin thống kê về người dùng của
+                                                        chúng tôi (nhưng các bên thứ ba đó sẽ không thể nhận dạng bất kỳ
+                                                        người dùng cá nhân nào từ thông tin đó);
+                                                        xử lý các yêu cầu và khiếu nại được thực hiện bởi hoặc về bạn
+                                                        liên quan đến website của chúng tôi;
+                                                        giữ cho website của chúng tôi bảo mật và ngăn chặn gian lận;
+                                                        xác minh việc tuân thủ các điều khoản và điều kiện quản lý việc
+                                                        sử dụng website của chúng tôi (bao gồm giám sát các tin nhắn
+                                                        riêng tư được gửi qua dịch vụ nhắn tin riêng tư trên website của
+                                                        chúng tôi); và
+                                                        các việc sử dụng khác.
+                                                    </div>
+                                                    <div class="modal-footer">
+                                                        <button type="button" class="btn btn-secondary"
+                                                            data-bs-dismiss="modal">Close</button>
+                                                        <button type="button"
+                                                            class="btn btn-primary">Understood</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    .</label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Rigester
+                    </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">RIGESTER</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Congratulations on your successful registration, new news will be updated to your
+                                    email account
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </td>
+    </tr>
     <tr>
         <td id="td-video">
             <ul>
@@ -143,3 +316,16 @@
         </td>
     </tr>
 </table>
+<script>
+    var myModal = document.getElementById('myModal')
+    var myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+    })
+</script>
+<style>
+    #div-form {
+        background-color: #E4E2DF;
+    }
+</style>

@@ -45,4 +45,9 @@ app.controller("getPass-Ctrl", function ($scope) {
         alert("Your password is" + $scope.password);
     }
 })
+app.controller("showCtrl",function($scope){
+    $scope.showInfo =function(){
+        confirm("Thank you for registering")
+    }
+})
 
