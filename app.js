@@ -45,23 +45,4 @@ app.controller("getPass-Ctrl", function ($scope) {
         alert("Your password is" + $scope.password);
     }
 })
-/*
-/*---------------Show Hide--------------------*/
-/*var app = angular.module("myApp",[]);
-app.controller("show-Ctrl", function ($scope) {
-    $scope.myShow = false;
-    $scope.showInfo = () => {
-        $scope.myShow = !$scope.myShow;
-    }
-})
-/*------------------add render with Directive---------------*/
-/*app.controller("addCtrl",[$scope ,function($scope) {   
-    $scope.page = "this is message";
-}]);
-app.directive("eProject",function(){
-    return{
-        restrict:'AEM',
-        templateUrl: "home\home.html",
-    }   
-})
-*/
+
