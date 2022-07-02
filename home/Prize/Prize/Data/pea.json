@@ -1,0 +1,13 @@
+{
+    "Peace":[
+        {"IMG": "Eproject/peace/2021/Dmitry Andreyevich Muratov.jpg","Name":"Dmitry Andreyevich Muratov","Year":2021},
+        {"IMG": "Eproject/peace/2021/Maria Ressa.webp","Name":"Maria Ressa","Year":2021},
+
+        {"IMG": "Eproject/peace/2020/World Food Programme (WFP).jpg","Name":"World Food Programme (WFP)","Year":2020},
+
+        {"IMG": "Eproject/peace/2019/Abiy Ahmed Ali.webp","Name":"Abiy Ahmed Ali","Year":2019},
+
+        {"IMG": "Eproject/peace/2018/Denis Mukwege.jpg","Name":"Denis Mukwege","Year":2018},
+        {"IMG": "Eproject/peace/2018/Nadia Murad Basee Taha.webp","Name":"Nadia Murad Basee Taha","Year":2018}    
+    ]
+}

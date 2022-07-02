@@ -1,0 +1,11 @@
+{
+    "Medicine":[
+        {"IMG": "Eproject/medicine/2021/Ardem Patapoutian.webp","Name":"Ardem Patapoutian","Year":2021},
+
+        {"IMG": "Eproject/medicine/2020/Charles M. Rice.webp","Name":"Charles M. Rice","Year":2020},
+
+        {"IMG": "Eproject/medicine/2019/Gregg L. Semenza.jpg","Name":"Gregg L. Semenza","Year":2019},
+
+        {"IMG": "Eproject/medicine/2018/James P. Allison.jpg","Name":"James P. Allison","Year":2018}    
+    ]
+}

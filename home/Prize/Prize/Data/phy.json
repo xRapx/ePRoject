@@ -1,0 +1,19 @@
+{
+    "Physic":[
+        {"IMG": "Eproject/Physicsnobel/2021/Giorgio Parisi.webp","Name":"Giorgio Parisi","Year":2021},
+        {"IMG": "Eproject/Physicsnobel/2021/Klaus Hasselmann.webp","Name":"Klaus Hasselmann","Year":2021},
+        {"IMG": "Eproject/Physicsnobel/2021/Syukuro manabe.webp","Name":"Syukuro manabe","Year":2021},
+
+        {"IMG": "Eproject/Physicsnobel/2020/Andrea Ghez.webp","Name":"Andrea Ghez","Year":2020},
+        {"IMG": "Eproject/Physicsnobel/2020/Reinhard Genzel.webp","Name":"Reinhard Genzel","Year":2020},
+        {"IMG": "Eproject/Physicsnobel/2020/Roger Perose.webp","Name":"Roger Perose","Year":2020},
+
+        {"IMG": "Eproject/Physicsnobel/2019/Didier Queloz.webp","Name":"Didier Queloz","Year":2019},
+        {"IMG": "Eproject/Physicsnobel/2019/James Peebles.webp","Name":"James Peebles","Year":2019},
+        {"IMG": "Eproject/Physicsnobel/2019/Michel Mayor.jpg","Name":"Michel Mayor","Year":2019},
+
+        {"IMG": "Eproject/Physicsnobel/2018/Arthur Ashkin.jpg","Name":"Arthur Ashkin","Year":2018},
+        {"IMG": "Eproject/Physicsnobel/2018/Donna Strickland.jpg","Name":"Donna Strickland","Year":2018},
+        {"IMG": "Eproject/Physicsnobel/2018/Gérard Mourou.jpg","Name":"Gérard Mourou","Year":2018}
+    ]
+}

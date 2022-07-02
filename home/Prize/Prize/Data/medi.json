@@ -1,0 +1,17 @@
+{
+    "Medicine":[
+        {"IMG": "Eproject/medicine/2021/Ardem Patapoutian.webp","Name":"Ardem Patapoutian","Year":2021},
+        {"IMG": "Eproject/medicine/2021/David julius.webp","Name":"David julius","Year":2021},
+
+        {"IMG": "Eproject/medicine/2020/Charles M. Rice.webp","Name":"Charles M. Rice","Year":2020},
+        {"IMG": "Eproject/medicine/2020/Harvey J. Alter.webp","Name":"Harvey J. Alter","Year":2020},
+        {"IMG": "Eproject/medicine/2020/Michael Houghton.webp","Name":"Michael Houghton","Year":2020},
+
+        {"IMG": "Eproject/medicine/2019/Gregg L. Semenza.jpg","Name":"Gregg L. Semenza","Year":2019},
+        {"IMG": "Eproject/medicine/2019/Sir Peter J. Ratcliffe.jpg","Name":"Sir Peter J. Ratcliffe","Year":2019},
+        {"IMG": "Eproject/medicine/2019/William G. Kaelin Jr.jpg","Name":"William G. Kaelin Jr","Year":2019},
+
+        {"IMG": "Eproject/medicine/2018/James P. Allison.jpg","Name":"James P. Allison","Year":2018},
+        {"IMG": "Eproject/medicine/2018/Tasuku Honjo.jpg","Name":"Tasuku Honjo","Year":2018}   
+    ]
+}
