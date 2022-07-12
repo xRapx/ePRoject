@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOBEL</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="demo.css">
+    <!-- <link rel="stylesheet" href="index.css"> -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular-route.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -19,25 +20,11 @@
 <body ng-app="myApp">
     <div id="div-header">
         <header>
-            <ul>
-                <li><img src="image/LOGO1.jpg" alt=""></li>
-                <li>
-                    <h1><i class="fa-solid fa-otter"></i>THE NOBEL PRIZE</h1>
-                </li>
-            </ul>
+            <span><img src="image/LOGO1.jpg" alt="logo" height="240px" id="logo"></span>
+            <span id="title">THE NOBEL PRIZE</span>
         </header>
     </div>
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar ">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <ul class="dropdown-menu">
-            <li class="dropdown-item">1</li>
-            <li class="dropdown-item">2</li>
-            <li class="dropdown-item">3</li>
-        </ul>
-
+    <nav class="navbar navbar-expand-sm navbar-dark" id="menu">
         <!-- Navbar links -->
         <div class="collapse navbar-collapse" id="collapsibleNavbar">
             <ul class="navbar-nav">
@@ -79,21 +66,69 @@
         </script>
         <div class="os_widget" data-comments="false" data-path="/nobel/the-alfred-nobel-quiz"></div>
     </section>
-    <section class="article-grid featured-content featured-content__color--default var-one-third  ">
-        <footer>
-            <div class="div-footer1">
-                <a href="#!about">About US</a> <a href="#!faq">FAQ</a> <a href="">Contact:</a>
+    <footer>
+        <div class="main-content">
+            <div class="left box">
+                <h2>About Us</h2>
+                <hr>
+                <div class="content">
+                    <p>Due to the lack information about  </p>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook-f"></span></a>
+                        <a href="#"><span class="fab fa-twitter"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-github"></span></a>
+                    </div>
+                </div>
             </div>
-            <div class="div-footer2 bg">
-                <ul>
-                    <li><i class="material-icons">pin_drop</i>590 Cach Mang Thang 8 ,ward 11, district 3, Ho Chi
-                        Minh
-                        city,Vietnam <i class="fa-solid fa-location-dot"></i></li>
-                    <li><i class="material-icons">local_phone</i>+84 22030 3507</li>
-                    <li><i class="material-icons">local_post_office</i>nobelprize.org@gmail.com</li>
-                </ul>
+            <div class="center box">
+                <h2>CONTACT US</h2>
+                <hr>
+                <div class="content">
+                    <div class="place">
+                        <i class="fas fa-map-marker"></i>
+                        <span class="text">590 Cach Mang Thang 8, Ward 11, District 3, Ho Chi Minh City, Viet Nam</span>
+                    </div>
+                    <div class="phone">
+                        <span class="fas fa-phone"></span>
+                        <span class="text">(+84) 220303507</span>
+                    </div>
+                    <div class="email">
+                        <span class="fas fa-envelope"></span>
+                        <span class="text">nobelprize.org@gmail.com</span>
+                    </div>
+                </div>
             </div>
-        </footer>
+            <div class="center-2 box">
+                <h2>GET HElP</h2>
+                <hr>
+                <div class="content">
+                    <div class="faqs"><a href="#">FAQs</a></div>
+                    <br>
+                    <div class="text">Tutorials</div>
+                </div>
+            </div>
+            <div class="right box">
+                <h2>FEEDBACK</h2>
+                <hr>
+                <div class="content">
+                    <form action="#">
+                        <div class="email">
+                            <div class="text">Email*</div>
+                            <input type="email" required>
+                        </div>
+                        <div class="msg">
+                            <div class="text">Message*</div>
+                            <textarea name="text" id="text" cols="25" rows="4" required></textarea>
+                        </div>
+                        <div>
+                            <button id="btn" type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
         <script src="app.js"></script>
 
         <!--Start of Tawk.to Script-->
