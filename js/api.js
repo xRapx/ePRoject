@@ -5,8 +5,90 @@ fetch(postAPI)
     return response.json(); //return về 1 mảng chứa Object và javacript types
   })
   .then((data) => {
-    // console.log(data)
-    //search Year
+   console.log(data)
+    // ------------------------Nav menu --------------------------
+    document.getElementById("chem").onclick = function () {
+      var table = "";
+      let getChemistry = data.filter((data) => {
+        if (data.nganh === "Chemistry") {
+          table += `<tr>
+          <td><img style="width: 183px;" src="${data.image}"/></td>
+          <td>${data.name}</td>
+          <td>${data.year}</td>
+          <td>${data.prize}</td>
+          <td>${data.data}</td>
+          <td>${data.motivation}</td>
+          </tr>`
+        }
+        document.getElementById("myTable").innerHTML = table
+      })
+    };
+    document.getElementById("lit").onclick = function () {
+      var table = "";
+      let getLiterature = data.filter((data) => {
+        if (data.nganh === "Literature") {
+          table += `<tr>
+          <td><img style="width: 183px;" src="${data.image}"/></td>
+          <td>${data.name}</td>
+          <td>${data.year}</td>
+          <td>${data.prize}</td>
+          <td>${data.data}</td>
+          <td>${data.motivation}</td>
+          </tr>`
+        }
+        document.getElementById("myTable").innerHTML = table
+      })
+    };
+    document.getElementById("medi").onclick = function () {
+      var table = "";
+      let getMedicine = data.filter((data) => {
+        if (data.nganh === "Medicine") {
+          table += `<tr>
+          <td><img style="width: 183px;" src="${data.image}"/></td>
+          <td>${data.name}</td>
+          <td>${data.year}</td>
+          <td>${data.prize}</td>
+          <td>${data.data}</td>
+          <td>${data.motivation}</td>
+          </tr>`
+        }
+        document.getElementById("myTable").innerHTML = table
+      })
+    };
+    document.getElementById("pea").onclick = function () {
+      var table = "";
+      let getPeace = data.filter((data) => {
+        if (data.nganh === "Peace") {
+          table += `<tr>
+          <td><img style="width: 183px;" src="${data.image}"/></td>
+          <td>${data.name}</td>
+          <td>${data.year}</td>
+          <td>${data.prize}</td>
+          <td>${data.data}</td>
+          <td>${data.motivation}</td>
+          </tr>`
+        }
+        document.getElementById("myTable").innerHTML = table
+      })
+    };
+    document.getElementById("phy").onclick = function () {
+      var table = "";
+      let getPhysic = data.filter((data) => {
+        if (data.nganh === "Physic") {
+          table += `<tr>
+          <td><img style="width: 183px;" src="${data.image}"/></td>
+          <td>${data.name}</td>
+          <td>${data.year}</td>
+          <td>${data.prize}</td>
+          <td>${data.data}</td>
+          <td>${data.motivation}</td>
+          </tr>`
+        }
+        document.getElementById("myTable").innerHTML = table
+      })
+    };
+
+  // -----------------------Select Year-----------------------
     document.getElementById("all").onclick = function () {
       var table = "";
       let getAll = data.filter((data) => {
